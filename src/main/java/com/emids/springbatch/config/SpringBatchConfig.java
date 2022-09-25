@@ -92,6 +92,13 @@ public class SpringBatchConfig {
     }
 
     @Bean
+    public TaskExecutor taskExecutor() {
+        SimpleAsyncTaskExecutor asyncTaskExecutor = new SimpleAsyncTaskExecutor();
+        asyncTaskExecutor.setConcurrencyLimit(10);
+        return asyncTaskExecutor;
+    }
+
+    @Bean
     public Job runJob() {
         return jobBuilderFactory
                 //can give any name
@@ -101,12 +108,4 @@ public class SpringBatchConfig {
                 .end()
                 .build();
     }
-
-    @Bean
-    public TaskExecutor taskExecutor() {
-        SimpleAsyncTaskExecutor asyncTaskExecutor = new SimpleAsyncTaskExecutor();
-        asyncTaskExecutor.setConcurrencyLimit(10);
-        return asyncTaskExecutor;
-    }
-
 }

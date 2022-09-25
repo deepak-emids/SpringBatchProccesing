@@ -10,12 +10,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "CUSTOMERS_INFO")
+@Table(name = "CUSTOMERS_INFO_YEAR")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Customer {
-
     @Id
     @Column(name = "CUSTOMER_ID")
     private int id;
@@ -33,6 +32,4 @@ public class Customer {
     private String country;
     @Column(name = "DOB")
     private String dob;
-
-
 }
