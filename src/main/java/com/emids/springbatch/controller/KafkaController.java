@@ -16,8 +16,8 @@ public class KafkaController {
 	@Autowired
 	private KafkaEmployeeProducer employeeProducer;
 	
-	@GetMapping("/publish")
-	public String sendMessage( @RequestParam("message") String message) {
+	@GetMapping("/publish/{message}")
+	public String sendMessage( @PathVariable("message") String message) {
 		producer.publishToTopic(message);
 		return "'"+message+ "' is published";
 	}

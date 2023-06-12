@@ -2,59 +2,57 @@ package com.emids.springbatch.entity.kafka;
 
 public class Employee {
 
-	private int employeeId;
-	private String name;
-	private String designation;
-	private int salary;
-	
-	public Employee(int employeeId, String name, String designation, int salary) {
-		this.employeeId = employeeId;
-		this.name = name;
-		this.designation = designation;
-		this.salary = salary;
-	}
+    private int employeeId;
+    private String name;
+    private String designation;
+    private int salary;
 
-	public Employee() {
-	}
+    public Employee(int employeeId, String name, String designation, int salary) {
+        this.employeeId = employeeId;
+        this.name = name;
+        this.designation = designation;
+        this.salary = salary;
+    }
 
-	public int getEmployeeId() {
-		return employeeId;
-	}
+    public Employee() {
+    }
 
-	public void setEmployeeId(int employeeId) {
-		this.employeeId = employeeId;
-	}
+    public int getEmployeeId() {
+        return employeeId;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public String getDesignation() {
-		return designation;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setDesignation(String designation) {
-		this.designation = designation;
-	}
+    public String getDesignation() {
+        return designation;
+    }
 
-	public int getSalary() {
-		return salary;
-	}
+    public void setDesignation(String designation) {
+        this.designation = designation;
+    }
 
-	public void setSalary(int salary) {
-		this.salary = salary;
-	}
+    public int getSalary() {
+        return salary;
+    }
 
-	@Override
-	public String toString() {
-		return "Employee [employeeId=" + employeeId + ", name=" + name + ", designation=" + designation + ", salary="
-				+ salary + "]";
-	}
-	
-	
-	
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee [employeeId=" + employeeId + ", name=" + name + ", designation=" + designation + ", salary="
+                + salary + "]";
+    }
+
 }
