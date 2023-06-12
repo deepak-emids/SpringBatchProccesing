@@ -1,7 +1,7 @@
 package com.emids.springbatch.config.batch;
 
 import com.emids.springbatch.batch.CustomerProcessor;
-import com.emids.springbatch.repository.CustomerRepository;
+import com.emids.springbatch.repository.batch.CustomerRepository;
 import com.emids.springbatch.entity.batch.Customer;
 import lombok.AllArgsConstructor;
 import org.springframework.batch.core.Job;

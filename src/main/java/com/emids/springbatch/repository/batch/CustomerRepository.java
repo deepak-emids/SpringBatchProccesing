@@ -1,4 +1,4 @@
-package com.emids.springbatch.repository;
+package com.emids.springbatch.repository.batch;
 
 import com.emids.springbatch.entity.batch.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;

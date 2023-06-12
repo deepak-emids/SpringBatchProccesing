@@ -1,4 +1,4 @@
-package com.emids.springbatch.repository;
+package com.emids.springbatch.repository.batch;
 
 import com.emids.springbatch.entity.batch.AppUser;
 import org.springframework.data.repository.CrudRepository;
