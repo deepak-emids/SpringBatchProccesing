@@ -1,5 +1,6 @@
 package com.emids.springbatch.config;
 
+import com.emids.springbatch.batch.CustomerProcessor;
 import com.emids.springbatch.repository.CustomerRepository;
 import com.emids.springbatch.entity.Customer;
 import lombok.AllArgsConstructor;
@@ -17,13 +18,11 @@ import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
-import org.springframework.core.task.SimpleAsyncTaskExecutor;
-import org.springframework.core.task.TaskExecutor;
 
 @Configuration
 @EnableBatchProcessing
 @AllArgsConstructor
-public class SpringBatchConfig {
+public class CustomerBatchConfig {
 
     private JobBuilderFactory jobBuilderFactory;
 
@@ -87,15 +86,7 @@ public class SpringBatchConfig {
                 .reader(reader())
                 .processor(processor())
                 .writer(writer())
-                .taskExecutor(taskExecutor())
                 .build();
-    }
-
-    @Bean
-    public TaskExecutor taskExecutor() {
-        SimpleAsyncTaskExecutor asyncTaskExecutor = new SimpleAsyncTaskExecutor();
-        asyncTaskExecutor.setConcurrencyLimit(10);
-        return asyncTaskExecutor;
     }
 
     @Bean

@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "CUSTOMERS_INFO_YEAR")
+@Table(name = "CUSTOMERS_INFO")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
