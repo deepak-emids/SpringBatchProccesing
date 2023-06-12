@@ -1,4 +1,4 @@
-package com.emids.springbatch.entity;
+package com.emids.springbatch.entity.batch;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,8 +1,8 @@
-package com.emids.springbatch.controller;
+package com.emids.springbatch.controller.share;
 
 import com.emids.springbatch.entity.CompanyShare;
-import com.emids.springbatch.exception.ShareNotFoundException;
-import com.emids.springbatch.service.ShareService;
+import com.emids.springbatch.exception.share.ShareNotFoundException;
+import com.emids.springbatch.service.share.ShareService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.emids.springbatch.controller;
+package com.emids.springbatch.controller.batch;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;

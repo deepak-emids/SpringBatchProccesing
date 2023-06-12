@@ -1,7 +1,7 @@
-package com.emids.springbatch.service;
+package com.emids.springbatch.service.share;
 
 import com.emids.springbatch.entity.CompanyShare;
-import com.emids.springbatch.exception.ShareNotFoundException;
+import com.emids.springbatch.exception.share.ShareNotFoundException;
 
 import java.util.List;
 import java.util.Map;

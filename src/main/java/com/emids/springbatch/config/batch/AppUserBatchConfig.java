@@ -1,6 +1,6 @@
-package com.emids.springbatch.config;
+package com.emids.springbatch.config.batch;
 
-import com.emids.springbatch.entity.AppUser;
+import com.emids.springbatch.entity.batch.AppUser;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;

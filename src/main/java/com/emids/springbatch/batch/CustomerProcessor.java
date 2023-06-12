@@ -1,6 +1,6 @@
 package com.emids.springbatch.batch;
 
-import com.emids.springbatch.entity.Customer;
+import com.emids.springbatch.entity.batch.Customer;
 import org.springframework.batch.item.ItemProcessor;
 
 

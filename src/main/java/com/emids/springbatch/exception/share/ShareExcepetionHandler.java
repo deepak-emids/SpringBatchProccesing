@@ -1,4 +1,4 @@
-package com.emids.springbatch.exception;
+package com.emids.springbatch.exception.share;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

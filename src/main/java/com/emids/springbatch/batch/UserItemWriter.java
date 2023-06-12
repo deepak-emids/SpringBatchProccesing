@@ -1,6 +1,6 @@
 package com.emids.springbatch.batch;
 
-import com.emids.springbatch.entity.AppUser;
+import com.emids.springbatch.entity.batch.AppUser;
 import com.emids.springbatch.repository.AppUserRepository;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;

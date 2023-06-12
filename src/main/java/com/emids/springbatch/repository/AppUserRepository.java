@@ -1,6 +1,6 @@
 package com.emids.springbatch.repository;
 
-import com.emids.springbatch.entity.AppUser;
+import com.emids.springbatch.entity.batch.AppUser;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,7 @@
-package com.emids.springbatch.service;
+package com.emids.springbatch.service.share;
 
 import com.emids.springbatch.entity.CompanyShare;
-import com.emids.springbatch.exception.ShareNotFoundException;
+import com.emids.springbatch.exception.share.ShareNotFoundException;
 import com.emids.springbatch.repository.ShareRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

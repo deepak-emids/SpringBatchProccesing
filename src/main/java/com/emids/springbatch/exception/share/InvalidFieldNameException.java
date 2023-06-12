@@ -1,4 +1,4 @@
-package com.emids.springbatch.exception;
+package com.emids.springbatch.exception.share;
 
 public class InvalidFieldNameException extends Exception {
 

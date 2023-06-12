@@ -1,6 +1,6 @@
 package com.emids.springbatch.batch;
 
-import com.emids.springbatch.entity.AppUser;
+import com.emids.springbatch.entity.batch.AppUser;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.emids.springbatch.controller;
+package com.emids.springbatch.controller.batch;
 
 import java.util.HashMap;
 import java.util.Map;
